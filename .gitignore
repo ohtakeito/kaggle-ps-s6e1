@@ -1,0 +1,7 @@
+*.csv
+*.parquet
+*.zip
+submission.csv
+oof_predictions.csv
+__pycache__/
+.ipynb_checkpoints/
