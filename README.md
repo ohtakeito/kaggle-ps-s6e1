@@ -1,7 +1,7 @@
 ## CV
 - 5-Fold KFold
-- OOF RMSE: 8.703
-- Public LB 8.672
+- OOF RMSE: 8.700
+- Public LB 8.667
 
 ## Overview
 Baseline solution for Kaggle Playground Series S6E1.
@@ -15,7 +15,12 @@ Model: リッジ回帰 + 残差をXGBoostで予測
 alpha = 1.0
 
 - XGB
+float64, int64をfloat32, int32に変換する。
 パラメータ探索はしておらず、学習率を下げて、木を多めにする。
+
+入力にlin_predというリッジが出した予測値そのものを追加した。
+
+高得点を低く外している予測ほど、少しだけ学習の重みが増えるようにした。
 
 使用パラメータ（固定）：
 - n_estimators: 5000（上限。実際は early stopping で止まる）
