@@ -1,7 +1,7 @@
 ## CV
 - 5-Fold KFold
-- OOF RMSE: 8.700
-- Public LB 8.667
+- OOF RMSE: 8.699
+- Public LB 8.666
 
 ## Overview
 Baseline solution for Kaggle Playground Series S6E1.
