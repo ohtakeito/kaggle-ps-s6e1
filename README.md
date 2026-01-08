@@ -3,6 +3,8 @@
 - OOF RMSE: 8.699
 - Public LB 8.666
 
+精度変わらず
+
 ## Overview
 Baseline solution for Kaggle Playground Series S6E1.
 
