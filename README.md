@@ -1,9 +1,9 @@
 ## CV
 - 5-Fold KFold
-- OOF RMSE: 8.720
-- Public LB 8.655
+- OOF RMSE: 8.719
+- Public LB 8.653
 
-大幅に変更し、かなり単純にした結果、今までで一番精度が良くなった。
+Lasso+XGBに変更した。少しだけよくなった。
 
 ## Overview
 
