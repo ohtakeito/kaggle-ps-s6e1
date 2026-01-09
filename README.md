@@ -1,9 +1,9 @@
 ## CV
 - 5-Fold KFold
 - OOF RMSE: 8.719
-- Public LB 8.653
+- Public LB 8.654
 
-Lasso+XGBに変更した。少しだけよくなった。
+ElasticNet+XGBに変更した。変化なし
 
 ## Overview
 
