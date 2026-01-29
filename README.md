@@ -1,7 +1,7 @@
 ## CV
 - 5-Fold KFold
-- OOF RMSE: 8.696
-- Public LB 8.654
+- OOF RMSE: 8.691
+- Public LB 8.652
 
 Huber+XGBに変更した。変化なし
 
